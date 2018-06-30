@@ -23,10 +23,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-
         android:layout_marginTop="129dp"
         android:text="Click"
         android:layout_centerHorizontal="true"
         android:id="@+id/button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Toast"
+        android:layout_alignRight="@+id/button"
+
+    />
 
 </RelativeLayout>
