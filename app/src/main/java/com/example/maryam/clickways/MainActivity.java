@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         final Button button1 =  (Button)findViewById(R.id.button);
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                textView.setText("سلام.این تست کلیک است");
+                textView.setText("این تست کلیک با Listener است");
             }
         });
     }
