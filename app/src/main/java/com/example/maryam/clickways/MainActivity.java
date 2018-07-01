@@ -1,5 +1,6 @@
 package com.example.maryam.clickways;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,5 +31,20 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"این آزمایش تست است",Toast.LENGTH_LONG).show();
             }
         });
+
+        Button next = (Button) findViewById(R.id.Button01);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Activity2.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
     }
+
+
+
+
+
+
 }
